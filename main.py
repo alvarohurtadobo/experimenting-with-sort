@@ -40,9 +40,9 @@ def main():
     tracker =  Sort(use_dlib= use_dlibTracker) #create instance of the SORT tracker
 
     if use_dlibTracker:
-        print "Dlib Correlation tracker activated!"
+        print("Dlib Correlation tracker activated!")
     else:
-        print "Kalman tracker activated!"
+        print("Kalman tracker activated!")
 
     with open(out_file, 'w') as f_out:
 
